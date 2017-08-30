@@ -7,6 +7,12 @@
     .icon-block {
         padding: 0 15px
     }
+    .navbar-fixed{
+  box-shadow: 0px, 10px;
+    }
+    #logo-container{
+        font-weight: bold;
+    }
     #intro,
     #work,
     #team {
@@ -244,5 +250,5 @@
         margin-top: 0px !important
     }
     div.footer-copyright{
-        
+
     }
