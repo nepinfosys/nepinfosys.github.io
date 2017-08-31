@@ -245,6 +245,27 @@
     }
     .parallax-container {
         max-height: 400px
+        -webkit-filter: hue-rotate(240deg) saturate(3.3); 
+    }
+
+    #overlay {
+      padding:10px;
+      position:absolute;
+      background-color:#003171;
+      display: inline;
+      opacity:0.9;    /* -> transparency 50% */
+      height:100%;   /* -> image_height - padding */
+      width:100%;    /* -> image_width - padding */
+      z-index:1;      /* -> put overlay over image */
+    }
+    #overlay div{
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: white;
+        font-size: 18px;
+        transform: translateX(-50%) translateY(-50%);
     }
     footer.page-footer {
         margin-top: 0px !important
