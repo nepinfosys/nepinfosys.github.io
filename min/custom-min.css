@@ -1,8 +1,8 @@
     .default_color {
-        background-color: #003171 !important
+        background-color: #F9690E !important
     }
     .default_color_text {
-        color: #003171 !important
+        color: #F9690E !important
     }
     .icon-block {
         padding: 0 15px
@@ -22,7 +22,7 @@
         min-height: 632px;
         max-height: 864px;
         position: relative;
-        background-color: #003171
+        background-color: #F9690E
     }
     #nav_f {
         box-shadow: none !important;
@@ -117,7 +117,7 @@
         visibility: hidden
     }
     .cd-headline.type .cd-words-wrapper.selected b {
-        color: #003171
+        color: #F9690E
     }
     .cd-headline.type b {
         visibility: hidden
@@ -251,9 +251,9 @@
     #overlay {
       padding:10px;
       position:absolute;
-      background-color:#003171;
+      background-color:#F9690E;
       display: inline;
-      opacity:0.9;    /* -> transparency 50% */
+      opacity:0.5;    /* -> transparency 50% */
       height:100%;   /* -> image_height - padding */
       width:100%;    /* -> image_width - padding */
       z-index:1;      /* -> put overlay over image */
